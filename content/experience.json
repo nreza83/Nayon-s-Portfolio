@@ -1,0 +1,42 @@
+{
+  "eyebrow": "04 / EXPERIENCE",
+  "title": "Professional",
+  "title_accent": "experience.",
+  "text": "",
+  "items": [
+    {
+      "date": "Nov 2023 – Present",
+      "title": "Medical Laboratory Technologist",
+      "institution": "Islami Bank Hospital and Cardiac Centre, Mirpur, Dhaka",
+      "points": [
+        "Perform routine and advanced microbiological testing on blood, urine, sputum and swab specimens.",
+        "Identify bacterial pathogens and run antimicrobial susceptibility testing following CLSI guidelines.",
+        "Carry out hematology, biochemistry, molecular, immunology, urinalysis and transfusion-medicine procedures.",
+        "Maintain quality control and records; support physicians and infection-control teams.",
+        "Train junior staff and interns in standard techniques and safety protocols."
+      ]
+    },
+    {
+      "date": "Mar 2023 – Oct 2023",
+      "title": "Medical Laboratory Technologist",
+      "institution": "SHIP International Hospital, Dhaka",
+      "points": [
+        "Prepared blood components: PRBC, FFP, platelet concentrate, cryoprecipitate and washed cell suspension.",
+        "Performed plasma and platelet apheresis and assisted in Therapeutic Plasma Exchange (TPE).",
+        "Operated automated blood grouping and crossmatch systems.",
+        "Performed antibody screening, Rh antibody detection and titration, DCT, ICT and Du test."
+      ]
+    },
+    {
+      "date": "Mar 2020 – Jan 2023",
+      "title": "Medical Laboratory Technologist",
+      "institution": "Bangladesh Specialized Hospital Ltd., Dhaka",
+      "points": [
+        "Collected and processed blood and other biological specimens across core laboratory sections.",
+        "Performed quality control on test results to ensure validity and accuracy.",
+        "Calibrated and troubleshot testing systems and instruments.",
+        "Kept records and reports and followed safety and infection-control procedures."
+      ]
+    }
+  ]
+}

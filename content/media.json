@@ -1,0 +1,25 @@
+{
+  "eyebrow": "06 / GALLERY",
+  "title": "Photos",
+  "title_accent": "& videos.",
+  "text": "Moments from the laboratory, conferences and academic work.",
+  "cv": "/assets/Nayon_Reza_CV.pdf",
+  "profile_photos": [
+    "/assets/photo-1.jpg",
+    "/assets/photo-2.jpg",
+    "/assets/photo-3.jpg",
+    "/assets/photo-4.jpg",
+    "/assets/photo-5.jpg"
+  ],
+  "gallery": [
+    {
+      "image": "/assets/photo-3.jpg",
+      "caption": "Department of Laboratory Medicine, SHIP International Hospital"
+    },
+    {
+      "image": "/assets/photo-4.jpg",
+      "caption": "Blood bank, Islami Bank Hospital and Cardiac Centre, Mirpur"
+    }
+  ],
+  "videos": []
+}

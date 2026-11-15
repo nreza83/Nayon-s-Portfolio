@@ -1,0 +1,59 @@
+{
+  "eyebrow": "05 / SKILLS",
+  "title": "Laboratory techniques",
+  "title_accent": "& instruments.",
+  "text": "Methods I perform and systems I operate, calibrate and troubleshoot.",
+  "items": [
+    {
+      "title": "🧫 Microbiology & Immunology",
+      "tags": [
+        "Culture & Sensitivity",
+        "AST (CLSI)",
+        "Kirby-Bauer disk diffusion",
+        "Gram / ZN / Fluorescent / Albert stains",
+        "Mycology",
+        "ELISA",
+        "Serology",
+        "BD BACTEC FX-40",
+        "Cobas e411",
+        "Maglumi 600 / 800"
+      ]
+    },
+    {
+      "title": "🧬 Molecular & Biochemistry",
+      "tags": [
+        "PCR",
+        "GeneXpert",
+        "Abbott ARCHITECT i1000SR",
+        "Dimension Xpand Plus",
+        "Beckman Coulter AU-480",
+        "Electrolyte analyzer",
+        "Laboratory QC"
+      ]
+    },
+    {
+      "title": "🩸 Transfusion Medicine",
+      "tags": [
+        "Blood component preparation",
+        "Plasma & platelet apheresis",
+        "Immucor NEO Iris",
+        "Antibody screening",
+        "Rh antibody titration",
+        "DCT / ICT",
+        "Du test",
+        "ICT crossmatch"
+      ]
+    },
+    {
+      "title": "🔬 Hematology & Computer",
+      "tags": [
+        "Sysmex XN-350 / XN-550",
+        "HORIBA ABX Pentra 80",
+        "LIS",
+        "MS Word",
+        "MS Excel",
+        "MS PowerPoint"
+      ]
+    }
+  ]
+}

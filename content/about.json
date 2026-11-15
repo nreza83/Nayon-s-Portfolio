@@ -1,0 +1,34 @@
+{
+  "eyebrow": "01 / ABOUT ME",
+  "title": "Five years at the bench.",
+  "title_accent": "A research-driven profile.",
+  "text": "I am a Microbiology graduate of Primeasia University (CGPA 3.63/4.00) and a Medical Laboratory Technologist at Islami Bank Hospital and Cardiac Centre, Mirpur. Across three hospitals in Dhaka I have worked in microbiology, hematology, biochemistry, immunology, molecular testing and transfusion medicine. Daily contact with clinical specimens has shaped my research questions, especially on antibiotic resistance and transfusion safety.",
+  "cards": [
+    {
+      "title": "Research Interests",
+      "text": "",
+      "items": [
+        "Antimicrobial resistance — resistance patterns in clinical isolates and antimicrobial stewardship",
+        "Clinical microbiology — pathogen identification and susceptibility testing",
+        "Molecular diagnostics — PCR-based detection in routine laboratory practice",
+        "Transfusion medicine — red cell alloimmunization in transfusion-dependent patients"
+      ],
+      "note": ""
+    },
+    {
+      "title": "Academic Goal",
+      "text": "To advance my academic knowledge through postgraduate study and conduct research that improves public health.",
+      "items": [],
+      "note": "Seeking: MSc / PhD and research positions in microbiology and laboratory medicine"
+    },
+    {
+      "title": "Languages",
+      "text": "",
+      "items": [
+        "English — Fluent · B2",
+        "Bangla — Native"
+      ],
+      "note": "Strengths: quality control, teamwork, communication, training junior staff"
+    }
+  ]
+}

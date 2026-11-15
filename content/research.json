@@ -1,0 +1,32 @@
+{
+  "eyebrow": "02 / RESEARCH",
+  "title": "Publications",
+  "title_accent": "& presentations.",
+  "text": "Peer-reviewed, conference and thesis work in transfusion medicine, antimicrobial resistance and vaccine design.",
+  "items": [
+    {
+      "label": "JOURNAL ARTICLE · 2026",
+      "title": "Prevalence of red cell alloantibodies in transfusion-dependent thalassemia: a cross-sectional study from Bangladesh",
+      "source": "Co-author · International Journal of Research in Medical Sciences, 14(3): 861–867",
+      "text": "Prevalence and specificity of red cell alloantibodies (including Anti-E, Anti-D and Anti-Kpa) in thalassemia patients, and the case for routine antibody screening.",
+      "link_text": "Read the article (DOI)",
+      "link": "https://dx.doi.org/10.18203/2320-6012.ijrms20260601"
+    },
+    {
+      "label": "CONFERENCE POSTER · DEC 2024",
+      "title": "Construction of a potential multi-epitope vaccine candidate targeting Nipah virus through an in silico approach",
+      "source": "38th BSM Annual Conference — Microbes in Health & Nutrition",
+      "text": "Computational design of a multi-epitope vaccine candidate able to trigger a sustained immune response in single and multiple-injection simulations.",
+      "link_text": "View the poster (DOI)",
+      "link": "http://dx.doi.org/10.13140/RG.2.2.16860.50569"
+    },
+    {
+      "label": "BACHELOR THESIS · 2024",
+      "title": "Comparative study of antibiotic resistance in pus, urine and blood isolates across age and sex groups in Dhaka City",
+      "source": "Department of Microbiology, Primeasia University",
+      "text": "2,344 samples analyzed by culture, biochemical tests and Kirby-Bauer disk diffusion; Klebsiella spp. and E. coli most prevalent, with high resistance to first-line antibiotics.",
+      "link_text": "",
+      "link": ""
+    }
+  ]
+}

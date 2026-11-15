@@ -1,0 +1,230 @@
+# Admin panel settings (Decap CMS). Open it at  https://YOUR-SITE/admin/
+# Every section of the public page is edited here. Press "Publish" to save;
+# the public site shows the new version about a minute later.
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded photos, videos and PDFs are stored
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://YOUR-SITE.netlify.app"
+display_url: "https://YOUR-SITE.netlify.app"
+
+collections:
+  - name: "site"
+    label: "Website sections"
+    editor:
+      preview: false
+    files:
+      - name: "hero"
+        label: "1. Home (top of the page)"
+        file: "content/hero.json"
+        fields:
+          - { label: "Small label above the name", name: "eyebrow", widget: "string" }
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Tagline — coloured part", name: "tagline_accent", widget: "string", required: false }
+          - { label: "Intro paragraph", name: "intro", widget: "text" }
+          - { label: "Photo card: small label", name: "caption_kicker", widget: "string", required: false }
+          - { label: "Photo card: status badge", name: "status", widget: "string", required: false }
+          - { label: "Photo card: location", name: "location", widget: "string", required: false }
+          - { label: "Photo card: university", name: "affiliation", widget: "string", required: false }
+
+      - name: "about"
+        label: "2. About"
+        file: "content/about.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Card title", name: "title", widget: "string" }
+              - { label: "Paragraph", name: "text", widget: "text", required: false }
+              - label: "Bullet points"
+                name: "items"
+                widget: "list"
+                required: false
+                hint: "Write 'Term — detail' to make the term bold."
+                field: { label: "Point", name: "item", widget: "string" }
+              - { label: "Highlighted note at the bottom", name: "note", widget: "string", required: false }
+
+      - name: "research"
+        label: "3. Research"
+        file: "content/research.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "Publications and presentations"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Type and year (e.g. JOURNAL ARTICLE · 2026)", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "text" }
+              - { label: "Journal / conference / role", name: "source", widget: "string", required: false }
+              - { label: "Summary", name: "text", widget: "text", required: false }
+              - { label: "Link text", name: "link_text", widget: "string", required: false }
+              - { label: "Link (https://…)", name: "link", widget: "string", required: false }
+
+      - name: "education"
+        label: "4. Education and certifications"
+        file: "content/education.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "Education"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Badge (short, e.g. PAU)", name: "badge", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Institution / result", name: "institution", widget: "string", required: false }
+              - { label: "Description", name: "text", widget: "text", required: false }
+              - { label: "Link text", name: "link_text", widget: "string", required: false }
+              - { label: "Link (https://…)", name: "link", widget: "string", required: false }
+          - { label: "Certifications: small label", name: "cert_eyebrow", widget: "string" }
+          - { label: "Certifications: heading", name: "cert_title", widget: "string" }
+          - { label: "Certifications: heading — coloured part", name: "cert_title_accent", widget: "string", required: false }
+          - label: "Certifications and tests"
+            name: "certifications"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Badge (short, e.g. PAU)", name: "badge", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Institution / result", name: "institution", widget: "string", required: false }
+              - { label: "Description", name: "text", widget: "text", required: false }
+              - { label: "Link text", name: "link_text", widget: "string", required: false }
+              - { label: "Link (https://…)", name: "link", widget: "string", required: false }
+
+      - name: "experience"
+        label: "5. Experience"
+        file: "content/experience.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "Jobs"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.institution}}"
+            fields:
+              - { label: "Dates", name: "date", widget: "string" }
+              - { label: "Job title", name: "title", widget: "string" }
+              - { label: "Hospital / organisation", name: "institution", widget: "string" }
+              - label: "Responsibilities"
+                name: "points"
+                widget: "list"
+                required: false
+                field: { label: "Point", name: "point", widget: "text" }
+
+      - name: "skills"
+        label: "6. Skills"
+        file: "content/skills.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "Skill groups"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Group title", name: "title", widget: "string" }
+              - label: "Skills"
+                name: "tags"
+                widget: "list"
+                field: { label: "Skill", name: "tag", widget: "string" }
+
+      - name: "media"
+        label: "7. CV, photos and videos"
+        file: "content/media.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - label: "CV (PDF)"
+            name: "cv"
+            widget: "file"
+            hint: "The file visitors get from the Download CV button."
+            media_library:
+              config:
+                max_file_size: 10485760   # 10 MB
+          - label: "Profile photos (rotate on the home page)"
+            name: "profile_photos"
+            widget: "list"
+            field:
+              label: "Photo"
+              name: "image"
+              widget: "image"
+              hint: "Square photos with the face in the centre work best."
+              media_library:
+                config:
+                  max_file_size: 10485760
+          - label: "Gallery photos"
+            name: "gallery"
+            widget: "list"
+            required: false
+            summary: "{{fields.caption}}"
+            fields:
+              - label: "Photo"
+                name: "image"
+                widget: "image"
+                media_library:
+                  config:
+                    max_file_size: 10485760
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Videos"
+            name: "videos"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Short description", name: "description", widget: "text", required: false }
+              - label: "Video file (MP4)"
+                name: "file"
+                widget: "file"
+                required: false
+                hint: "Keep videos under about 50 MB. Visitors can play and download it."
+                media_library:
+                  config:
+                    max_file_size: 52428800   # 50 MB
+              - label: "OR a YouTube link"
+                name: "link"
+                widget: "string"
+                required: false
+                hint: "For long videos, upload to YouTube and paste the link here instead."
+
+      - name: "contact"
+        label: "8. Contact, links and analytics"
+        file: "content/contact.json"
+        fields:
+          - { label: "Small label above the heading", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Heading — coloured part", name: "title_accent", widget: "string", required: false }
+          - { label: "Intro text", name: "text", widget: "text", required: false }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string", required: false }
+          - { label: "LinkedIn link", name: "linkedin", widget: "string", required: false }
+          - { label: "ResearchGate link", name: "researchgate", widget: "string", required: false }
+          - { label: "WhatsApp number (digits with country code)", name: "whatsapp", widget: "string", required: false }
+          - { label: "Footer line after the name", name: "footer", widget: "string", required: false }
+          - { label: "Google Analytics ID (G-XXXXXXXXXX)", name: "ga_id", widget: "string", required: false }

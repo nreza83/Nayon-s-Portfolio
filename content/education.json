@@ -1,0 +1,58 @@
+{
+  "eyebrow": "03 / EDUCATION",
+  "title": "Academic",
+  "title_accent": "journey.",
+  "text": "",
+  "items": [
+    {
+      "badge": "PAU",
+      "date": "2021 – 2024",
+      "title": "B.Sc. in Microbiology",
+      "institution": "Primeasia University, Dhaka · CGPA 3.63 / 4.00",
+      "text": "Medical, food and pharmaceutical microbiology, immunology, microbial and molecular genetics, genetic engineering and molecular techniques.",
+      "link_text": "",
+      "link": ""
+    },
+    {
+      "badge": "IHT",
+      "date": "2016 – 2019",
+      "title": "Diploma in Medical Technology (Laboratory Medicine)",
+      "institution": "Institute of Health Technology, Bogura · State Medical Faculty of Bangladesh",
+      "text": "Clinical pathology, microbiology, immunology, haematology, biochemistry, histopathology and transfusion medicine.",
+      "link_text": "",
+      "link": ""
+    },
+    {
+      "badge": "SSC",
+      "date": "2015",
+      "title": "Secondary School Certificate (SSC)",
+      "institution": "Board of Intermediate and Secondary Education, Rajshahi · GPA 4.83 / 5.00",
+      "text": "Science group",
+      "link_text": "",
+      "link": ""
+    }
+  ],
+  "cert_eyebrow": "CERTIFICATIONS & TESTS",
+  "cert_title": "Certifications",
+  "cert_title_accent": "& training.",
+  "certifications": [
+    {
+      "badge": "6.5",
+      "date": "English proficiency",
+      "title": "IELTS — Overall Band 6.5",
+      "institution": "International English Language Testing System",
+      "text": "Independent user (B2), with listening at C1 level.",
+      "link_text": "",
+      "link": ""
+    },
+    {
+      "badge": "edX",
+      "date": "April 2022",
+      "title": "LEAD1x: Exercising Leadership — Foundational Principles",
+      "institution": "edX",
+      "text": "Training in leadership principles, applied to managing roles in the laboratory.",
+      "link_text": "View certificate",
+      "link": "https://courses.edx.org/certificates/aa78923ca1684a4d9978eed21817721c"
+    }
+  ]
+}
