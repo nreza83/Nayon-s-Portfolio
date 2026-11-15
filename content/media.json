@@ -21,5 +21,10 @@
       "caption": "Blood bank, Islami Bank Hospital and Cardiac Centre, Mirpur"
     }
   ],
-  "videos": []
+  "videos": [
+    {
+      "file": "/assets/uploads/vid20231026130723.mp4",
+      "title": "Lab Work"
+    }
+  ]
 }
